@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { SectionHeading } from '../components/shared/SectionHeading';
 import { Button } from '../components/shared/Button';
+import { SEO } from '../components/shared/SEO';
 import firmData from '../data/firm.json';
 import servicesData from '../data/services.json';
 
@@ -47,6 +48,27 @@ export const Contact: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  const contactSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    'name': 'Contact ANS Tax Consultancy',
+    'url': 'https://anstaxconsultancy.com/contact',
+    'mainEntity': {
+      '@type': 'AccountingService',
+      'name': 'ANS Tax Consultancy',
+      'telephone': '+91-7046512939',
+      'email': 'info@anstaxconsultancy.com',
+      'address': {
+        '@type': 'PostalAddress',
+        'streetAddress': '101, C , Skyline, Station Rd, above IDBI BANK',
+        'addressLocality': 'Vyara',
+        'addressRegion': 'Gujarat',
+        'postalCode': '394650',
+        'addressCountry': 'IN'
+      }
+    }
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -59,6 +81,13 @@ export const Contact: React.FC = () => {
 
   return (
     <div className="bg-[#0b1329]">
+      <SEO
+        title="Contact ANS Tax Consultancy | Book a Consultation in India & Dubai"
+        description="Contact ANS Tax Consultancy for corporate tax, GST filing, statutory audit, bookkeeping, and Virtual CFO advisory. Call +91-7046512939 or request an appointment."
+        keywords="Contact ANS Tax Consultancy, Tax Consultant Phone, Tax Advisor Office Vyara Gujarat, Tax Services Dubai, Book Financial Consultation"
+        canonicalPath="/contact"
+        schema={contactSchema}
+      />
       {/* 1. Hero */}
       <section className="relative pt-8 sm:pt-12 pb-14 sm:pb-16 bg-gradient-to-b from-[#121f3d] via-[#0b1329] to-[#0b1329] border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

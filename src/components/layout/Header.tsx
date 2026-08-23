@@ -119,6 +119,8 @@ export const Header: React.FC = () => {
                 <img
                   src="/logo.png"
                   alt="ANS Tax Consultancy Logo"
+                  width="100"
+                  height="40"
                   className="h-8 sm:h-10 w-auto object-contain"
                 />
               </div>
@@ -328,7 +330,7 @@ export const Header: React.FC = () => {
               <div className="flex items-center justify-between pb-4 border-b border-white/10">
                 <div className="flex items-center gap-2.5">
                   <div className="p-1 rounded-lg bg-white border border-amber-400/50">
-                    <img src="/logo.png" alt="ANS" className="h-7 w-auto" />
+                    <img src="/logo.png" alt="ANS Tax Consultancy Logo" width="70" height="28" className="h-7 w-auto object-contain" />
                   </div>
                   <div>
                     <p className="text-sm font-bold text-white leading-none">ANS Advisory</p>

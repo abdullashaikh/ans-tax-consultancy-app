@@ -45,27 +45,27 @@ export const Hero: React.FC = () => {
             <span className="hidden sm:inline text-slate-200">Est. {firmData.founded}</span>
           </motion.div>
 
-          {/* Main Headline */}
+          {/* Main Headline (Optimized H1 for Google Search & Brand Discovery) */}
           <motion.h1
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
             className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.18] sm:leading-[1.12]"
           >
-            Your Trusted Partner in{' '}
+            ANS Tax Consultancy —{' '}
             <span className="gold-gradient-text block sm:inline font-extrabold">
-              Accounting, Audit, Tax & Financial Advisory
+              Tax, Accounting & Business Advisory in India & Dubai
             </span>
           </motion.h1>
 
-          {/* Subheadline */}
+          {/* Subheadline with natural SEO keyword integration */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             className="mt-5 sm:mt-8 text-sm sm:text-lg lg:text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed px-2 font-normal"
           >
-            {firmData.subTagline}
+            Empowering enterprises with expert Income Tax filing, GST compliance, accounting, statutory audits, and strategic business consultancy across India and Dubai.
           </motion.p>
 
           {/* Dual CTAs */}

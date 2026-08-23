@@ -20,6 +20,7 @@ import { Button } from '../components/shared/Button';
 import { StatsBar } from '../components/home/StatsBar';
 import { ConsultationModal } from '../components/shared/ConsultationModal';
 import { IconRenderer } from '../components/shared/IconRenderer';
+import { SEO } from '../components/shared/SEO';
 import aboutData from '../data/about.json';
 import firmData from '../data/firm.json';
 import { AboutData } from '../types';
@@ -31,6 +32,12 @@ export const About: React.FC = () => {
 
   return (
     <div className="bg-[#0b1329]">
+      <SEO
+        title="About Us | ANS Tax Consultancy - Leading Tax & Accounting Firm"
+        description="Learn about ANS Tax Consultancy's 10-year pedigree in providing premier corporate tax, auditing, GST compliance, and financial advisory services in India and Dubai."
+        keywords="About ANS Tax Consultancy, Tax Advisors India, Dubai Tax Consultants, Chartered Accountants, Tax Firm Legacy, Corporate Financial Advisory"
+        canonicalPath="/about"
+      />
       {/* 1. Hero Section */}
       <section className="relative pt-8 sm:pt-12 pb-16 sm:pb-20 bg-gradient-to-b from-[#121f3d] via-[#0b1329] to-[#0b1329] border-b border-white/10 overflow-hidden">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[350px] sm:w-[600px] h-[300px] sm:h-[400px] bg-amber-500/15 rounded-full blur-[100px] sm:blur-[160px] pointer-events-none" />
