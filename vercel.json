@@ -5,6 +5,10 @@
       "destination": "/robots.txt"
     },
     {
+      "source": "/robot.txt",
+      "destination": "/robot.txt"
+    },
+    {
       "source": "/sitemap.xml",
       "destination": "/sitemap.xml"
     },
@@ -25,6 +29,15 @@
     },
     {
       "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/robot.txt",
       "headers": [
         {
           "key": "Content-Type",
