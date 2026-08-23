@@ -17,11 +17,11 @@ export const Card: React.FC<CardProps> = ({
   return (
     <div
       className={`
-        relative rounded-2xl bg-[#0f172a]/90 backdrop-blur-md 
-        border border-slate-800/80 p-6 sm:p-8 
+        relative rounded-2xl bg-white 
+        border border-slate-200 p-6 sm:p-8 shadow-sm
         transition-all duration-300
-        ${hoverEffect ? 'hover:border-amber-500/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/50' : ''}
-        ${glow ? 'gold-border-glow' : ''}
+        ${hoverEffect ? 'hover:border-amber-400 hover:-translate-y-1 hover:shadow-xl' : ''}
+        ${glow ? 'ring-2 ring-amber-400/40' : ''}
         ${className}
       `}
       {...props}

@@ -9,9 +9,9 @@ export const CtaBanner: React.FC = () => {
   const [isConsultOpen, setIsConsultOpen] = useState(false);
 
   return (
-    <section className="py-16 sm:py-24 bg-gradient-to-b from-[#0b1329] to-[#081024] relative overflow-hidden">
+    <section className="py-16 sm:py-24 bg-white relative overflow-hidden">
       {/* Background ambient lighting */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[800px] h-[250px] sm:h-[350px] bg-amber-500/18 rounded-full blur-[100px] sm:blur-[160px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] sm:w-[800px] h-[250px] sm:h-[350px] bg-amber-500/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
@@ -19,10 +19,10 @@ export const CtaBanner: React.FC = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: '-40px' }}
           transition={{ duration: 0.6 }}
-          className="relative rounded-2xl sm:rounded-3xl p-6 sm:p-12 md:p-16 bg-gradient-to-r from-[#142347] via-[#1a2e58] to-[#142347] border border-amber-400/50 shadow-2xl shadow-slate-950/40 overflow-hidden card-hover-glow"
+          className="relative rounded-2xl sm:rounded-3xl p-6 sm:p-12 md:p-16 bg-gradient-to-r from-[#0c1833] via-[#132347] to-[#0c1833] text-white border border-amber-400/40 shadow-2xl overflow-hidden"
         >
           {/* Top Gold Glowing Trim */}
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-400 via-amber-200 to-amber-500" />
+          <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-500" />
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center">
             
@@ -35,7 +35,7 @@ export const CtaBanner: React.FC = () => {
 
               <h2 className="text-xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
                 Ready to Simplify Your Finances &amp;{' '}
-                <span className="gold-gradient-text block sm:inline">Eliminate Compliance Risk?</span>
+                <span className="text-amber-400 block sm:inline">Eliminate Compliance Risk?</span>
               </h2>
 
               <p className="text-xs sm:text-base text-slate-200 max-w-2xl leading-relaxed font-normal">
@@ -66,7 +66,7 @@ export const CtaBanner: React.FC = () => {
                 onClick={() => setIsConsultOpen(true)}
                 icon={<Calendar className="w-5 h-5 text-slate-950" />}
                 iconPosition="left"
-                className="w-full text-center shadow-amber-500/35"
+                className="w-full text-center shadow-lg"
               >
                 Schedule Consultation
               </Button>
@@ -77,7 +77,7 @@ export const CtaBanner: React.FC = () => {
                 href={`tel:${firmData.phone}`}
                 icon={<Phone className="w-4 h-4 text-amber-400" />}
                 iconPosition="left"
-                className="w-full text-center bg-[#1d315c] hover:bg-[#253e74] border-white/20 text-white"
+                className="w-full text-center bg-white/10 hover:bg-white/20 border-white/20 text-white"
               >
                 Call: {firmData.phone}
               </Button>

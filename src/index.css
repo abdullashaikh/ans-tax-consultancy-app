@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 html {
@@ -14,103 +14,88 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #0b1329;
+  background-color: #f8fafc;
   background-image: 
-    radial-gradient(at 15% 10%, rgba(30, 58, 138, 0.25) 0px, transparent 55%),
-    radial-gradient(at 85% 20%, rgba(245, 158, 11, 0.12) 0px, transparent 50%),
-    radial-gradient(at 50% 80%, rgba(30, 58, 138, 0.2) 0px, transparent 60%);
+    radial-gradient(at 10% 10%, rgba(224, 231, 255, 0.45) 0px, transparent 50%),
+    radial-gradient(at 90% 20%, rgba(254, 243, 199, 0.4) 0px, transparent 45%),
+    radial-gradient(at 50% 90%, rgba(219, 234, 254, 0.35) 0px, transparent 60%);
   background-attachment: fixed;
-  color: #f1f5f9;
+  color: #0f172a;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
   width: 100%;
 }
 
-/* Custom sleek scrollbar */
+/* Custom light theme sleek scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
   height: 7px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0b1329;
+  background: #f1f5f9;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2a3f68;
+  background: #cbd5e1;
   border-radius: 9999px;
-  border: 1px solid #3b558c;
+  border: 1px solid #e2e8f0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #e5a93c;
+  background: #f59e0b;
 }
 
-/* Background Gradients & Glow Effects */
+/* Background Gradients & Light Grid Effects */
 .bg-grid-pattern {
   background-size: 32px 32px;
   background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.04) 1px, transparent 1px);
 }
 
 .gold-gradient-text {
-  background: linear-gradient(135deg, #ffffff 0%, #fde047 30%, #f59e0b 65%, #d97706 100%);
+  background: linear-gradient(135deg, #b45309 0%, #d97706 50%, #b45309 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 200% auto;
-  animation: shine-text 6s linear infinite;
-}
-
-@keyframes shine-text {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }
 
 .gold-gradient-bg {
   background: linear-gradient(135deg, #f59e0b 0%, #d97706 60%, #b45309 100%);
 }
 
-/* Luminous Glass Card */
+/* Light Mode Clean Elevated Card */
 .glass-card-luminous {
-  background: rgba(19, 31, 56, 0.75);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
 }
 
-/* Card Glow Effect */
+/* Card Hover Elevation Effect */
 .card-hover-glow {
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  background: rgba(19, 31, 56, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 10px -2px rgba(15, 23, 42, 0.05);
 }
 
 .card-hover-glow:hover {
   transform: translateY(-4px);
-  background: rgba(26, 42, 74, 0.95);
-  box-shadow: 
-    0 20px 40px -10px rgba(0, 0, 0, 0.45),
-    0 0 30px -5px rgba(229, 169, 60, 0.3),
-    inset 0 1px 0 rgba(253, 224, 71, 0.3);
-  border-color: rgba(229, 169, 60, 0.6);
+  box-shadow: 0 20px 30px -10px rgba(15, 23, 42, 0.1), 0 0 20px -5px rgba(245, 158, 11, 0.2);
+  border-color: #f59e0b;
 }
 
-/* Alternating lighter section tone */
+/* Alternating Section Backgrounds */
 .section-light-slate {
-  background: linear-gradient(180deg, rgba(16, 28, 52, 0.9) 0%, rgba(22, 38, 70, 0.85) 50%, rgba(16, 28, 52, 0.9) 100%);
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: #f1f5f9;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 /* Floating animation */
 @keyframes float-slow {
   0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-8px) rotate(1deg); }
+  50% { transform: translateY(-6px) rotate(1deg); }
 }
 
 .animate-float-slow {
@@ -118,8 +103,8 @@ body {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50% { opacity: 0.85; transform: scale(1.08); }
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
 }
 
 .animate-pulse-glow {

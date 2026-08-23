@@ -32,9 +32,9 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 mb-4"
+          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-50 text-amber-800 border border-amber-200 mb-4 shadow-sm"
         >
-          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+          <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
           {badge}
         </motion.div>
       )}
@@ -44,7 +44,7 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.1 }}
-        className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight"
+        className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight"
       >
         {title}{' '}
         {highlightedText && (
@@ -60,7 +60,7 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-4 text-sm sm:text-base text-slate-400 leading-relaxed max-w-2xl"
+          className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl font-normal"
         >
           {subtitle}
         </motion.p>
