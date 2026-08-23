@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh V. Mehta",
+    "role": "Managing Director",
+    "company": "Apex Precision Engineering Ltd.",
+    "avatar": "RM",
+    "quote": "ANS Tax Consultancy streamlined our entire multi-state GST filing and statutory audit process. Their proactive approach saved us substantial tax leakage while keeping us 100% compliant with evolving regulations.",
+    "serviceUsed": "Auditing & Taxation",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Pooja Sharma",
+    "role": "Co-Founder & CEO",
+    "company": "Nexus Cloud Innovations",
+    "avatar": "PS",
+    "quote": "Having ANS as our Virtual CFO was pivotal during our Series A funding round. Their rigorous financial modeling and due diligence preparation gave our institutional investors immense confidence.",
+    "serviceUsed": "Financial Advisory",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Karan Patel",
+    "role": "Chief Financial Officer",
+    "company": "Horizon Healthcare & Diagnostics",
+    "avatar": "KP",
+    "quote": "The bookkeeping and management reporting from ANS is exceptionally prompt and accurate. We receive our monthly MIS on day 3 with deep unit-economics clarity that helps us make timely procurement decisions.",
+    "serviceUsed": "Accounting & Bookkeeping",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Sunil Agrawal",
+    "role": "Founder & Chairman",
+    "company": "Varun Logistics & Supply Chain",
+    "avatar": "SA",
+    "quote": "When we faced a complex cross-border transfer pricing assessment, ANS handled the legal drafting and tribunal representation with remarkable depth. Their mastery over direct tax law is unmatched.",
+    "serviceUsed": "Tax Litigation & Advisory",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Devendra Joshi",
+    "role": "Director",
+    "company": "Silverline Retail Ventures",
+    "avatar": "DJ",
+    "quote": "From day one, the ANS team felt like an extension of our internal leadership. Their audit rigor helped us eliminate inventory shrinkage across 14 warehouse locations.",
+    "serviceUsed": "Stock & Internal Audit",
+    "rating": 5
+  }
+]

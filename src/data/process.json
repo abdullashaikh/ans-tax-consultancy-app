@@ -1,0 +1,30 @@
+[
+  {
+    "step": "01",
+    "title": "Initial Consultation & Scoping",
+    "subtitle": "Understanding your financial architecture",
+    "description": "We begin with a deep-dive diagnostic session to understand your business model, current regulatory posture, challenges, and growth objectives.",
+    "icon": "MessageSquareText"
+  },
+  {
+    "step": "02",
+    "title": "Strategic Assessment & Roadmap",
+    "subtitle": "Crafting tailored solutions",
+    "description": "Our senior partners analyze your records and construct a customized compliance roadmap, tax optimization framework, or advisory model.",
+    "icon": "FileSearch"
+  },
+  {
+    "step": "03",
+    "title": "Seamless Execution & Audit",
+    "subtitle": "Precision in every ledger and filing",
+    "description": "We deploy specialized teams and secure technology platforms to execute bookkeeping, filings, audits, or financial models with zero downtime.",
+    "icon": "ShieldCheck"
+  },
+  {
+    "step": "04",
+    "title": "Ongoing Advisory & Review",
+    "subtitle": "Continuous value creation",
+    "description": "We maintain regular touchpoints through monthly MIS reviews, proactive tax alerts, regulatory updates, and strategic growth guidance.",
+    "icon": "TrendingUp"
+  }
+]
