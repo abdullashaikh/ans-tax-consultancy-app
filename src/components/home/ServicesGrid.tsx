@@ -6,9 +6,9 @@ import { ServiceItem } from '../../types';
 
 export const ServicesGrid: React.FC = () => {
   return (
-    <section id="services" className="py-20 sm:py-28 bg-[#070b14] relative overflow-hidden">
+    <section id="services" className="py-20 sm:py-28 bg-[#0b1329] relative overflow-hidden">
       {/* Background ambient light */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-amber-500/5 rounded-full blur-[160px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-amber-500/10 rounded-full blur-[180px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading

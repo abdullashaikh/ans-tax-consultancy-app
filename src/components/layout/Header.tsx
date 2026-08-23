@@ -14,8 +14,7 @@ import {
   TrendingUp, 
   ArrowRight,
   Sparkles,
-  Calendar,
-  MessageSquare
+  Calendar
 } from 'lucide-react';
 import { Button } from '../shared/Button';
 import { ConsultationModal } from '../shared/ConsultationModal';
@@ -72,33 +71,33 @@ export const Header: React.FC = () => {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-40 transition-all duration-300">
-        {/* Top Info Bar - Hidden on small mobile */}
-        <div className="bg-[#050811]/95 border-b border-slate-800/80 text-xs text-slate-400 hidden sm:block">
+        {/* Top Info Bar */}
+        <div className="bg-[#0b1429] border-b border-white/10 text-xs text-slate-300 hidden sm:block">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between">
             <div className="flex items-center gap-6">
               <a 
                 href={`tel:${firmData.phone}`} 
-                className="flex items-center gap-1.5 hover:text-amber-400 transition-colors"
+                className="flex items-center gap-1.5 hover:text-amber-400 transition-colors font-medium text-slate-200"
               >
                 <Phone className="w-3.5 h-3.5 text-amber-400" />
                 <span>{firmData.phone}</span>
               </a>
               <a 
                 href={`mailto:${firmData.email}`} 
-                className="flex items-center gap-1.5 hover:text-amber-400 transition-colors hidden md:flex"
+                className="flex items-center gap-1.5 hover:text-amber-400 transition-colors hidden md:flex text-slate-200"
               >
                 <Mail className="w-3.5 h-3.5 text-amber-400" />
                 <span>{firmData.email}</span>
               </a>
-              <div className="flex items-center gap-1.5 text-slate-500 hidden lg:flex">
-                <Clock className="w-3.5 h-3.5 text-amber-400/70" />
+              <div className="flex items-center gap-1.5 text-slate-400 hidden lg:flex">
+                <Clock className="w-3.5 h-3.5 text-amber-400/80" />
                 <span>{firmData.workingHours}</span>
               </div>
             </div>
 
             <div className="flex items-center gap-4">
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-[11px] font-medium">
-                <Sparkles className="w-3 h-3 animate-pulse" />
+              <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 text-[11px] font-semibold">
+                <Sparkles className="w-3 h-3 animate-pulse text-amber-400" />
                 Chartered Financial & Tax Experts
               </span>
             </div>
@@ -109,14 +108,14 @@ export const Header: React.FC = () => {
         <nav
           className={`transition-all duration-300 ${
             isScrolled
-              ? 'bg-[#070b14]/95 backdrop-blur-xl shadow-xl shadow-black/80 border-b border-slate-800/80 py-2.5 sm:py-3'
-              : 'bg-[#070b14]/80 backdrop-blur-md border-b border-slate-800/40 py-3 sm:py-4'
+              ? 'bg-[#0f1b36]/95 backdrop-blur-xl shadow-xl shadow-slate-950/40 border-b border-white/15 py-2.5 sm:py-3'
+              : 'bg-[#0f1b36]/85 backdrop-blur-md border-b border-white/10 py-3 sm:py-4'
           }`}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
             {/* Brand Logo */}
             <Link to="/" className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none shrink-0">
-              <div className="relative p-1 sm:p-1.5 rounded-xl bg-white/95 border border-amber-400/50 shadow-md group-hover:shadow-amber-500/30 group-hover:scale-105 transition-all">
+              <div className="relative p-1 sm:p-1.5 rounded-xl bg-white border border-amber-400/60 shadow-md group-hover:shadow-amber-500/40 group-hover:scale-105 transition-all">
                 <img
                   src="/logo.png"
                   alt="ANS Tax Consultancy Logo"
@@ -127,7 +126,7 @@ export const Header: React.FC = () => {
                 <span className="text-base sm:text-xl font-extrabold tracking-tight text-white group-hover:text-amber-400 transition-colors">
                   ANS
                 </span>
-                <span className="text-[9px] sm:text-[11px] uppercase tracking-wider text-amber-400/90 font-semibold leading-none">
+                <span className="text-[9px] sm:text-[11px] uppercase tracking-wider text-amber-300 font-bold leading-none">
                   Tax Consultancy
                 </span>
               </div>
@@ -137,10 +136,10 @@ export const Header: React.FC = () => {
             <div className="hidden lg:flex items-center gap-8">
               <Link
                 to="/"
-                className={`text-sm font-medium transition-all duration-200 relative py-1 ${
+                className={`text-sm font-semibold transition-all duration-200 relative py-1 ${
                   isActive('/') && location.pathname === '/'
-                    ? 'text-amber-400 font-semibold'
-                    : 'text-slate-300 hover:text-white'
+                    ? 'text-amber-400 font-bold'
+                    : 'text-slate-200 hover:text-white'
                 }`}
               >
                 <span>Home</span>
@@ -151,10 +150,10 @@ export const Header: React.FC = () => {
 
               <Link
                 to="/about"
-                className={`text-sm font-medium transition-all duration-200 relative py-1 ${
+                className={`text-sm font-semibold transition-all duration-200 relative py-1 ${
                   isActive('/about')
-                    ? 'text-amber-400 font-semibold'
-                    : 'text-slate-300 hover:text-white'
+                    ? 'text-amber-400 font-bold'
+                    : 'text-slate-200 hover:text-white'
                 }`}
               >
                 <span>About Us</span>
@@ -170,17 +169,17 @@ export const Header: React.FC = () => {
                 onMouseLeave={() => setServicesDropdownOpen(false)}
               >
                 <button
-                  className={`flex items-center gap-1.5 text-sm font-medium transition-colors py-2 focus:outline-none cursor-pointer ${
+                  className={`flex items-center gap-1.5 text-sm font-semibold transition-colors py-2 focus:outline-none cursor-pointer ${
                     isActive('/services')
-                      ? 'text-amber-400 font-semibold'
-                      : 'text-slate-300 hover:text-white'
+                      ? 'text-amber-400 font-bold'
+                      : 'text-slate-200 hover:text-white'
                   }`}
                   onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
                 >
                   <span>Services</span>
                   <ChevronDown
                     className={`w-4 h-4 transition-transform duration-200 ${
-                      servicesDropdownOpen ? 'rotate-180 text-amber-400' : 'text-slate-400'
+                      servicesDropdownOpen ? 'rotate-180 text-amber-400' : 'text-slate-300'
                     }`}
                   />
                 </button>
@@ -195,9 +194,9 @@ export const Header: React.FC = () => {
                       transition={{ duration: 0.2 }}
                       className="absolute top-full left-1/2 -translate-x-1/2 w-96 pt-2 z-50"
                     >
-                      <div className="rounded-2xl bg-[#0e1629] border border-amber-500/30 p-3.5 shadow-2xl shadow-black/90 backdrop-blur-xl ring-1 ring-amber-500/20">
-                        <div className="p-2 border-b border-slate-800/80 mb-2">
-                          <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+                      <div className="rounded-2xl bg-[#142342] border border-white/20 p-3.5 shadow-2xl shadow-slate-950/60 backdrop-blur-2xl ring-1 ring-amber-500/30">
+                        <div className="p-2 border-b border-white/10 mb-2">
+                          <p className="text-xs font-bold uppercase tracking-wider text-amber-400">
                             Core Practice Areas
                           </p>
                         </div>
@@ -206,17 +205,17 @@ export const Header: React.FC = () => {
                             <Link
                               key={service.slug}
                               to={`/services/${service.slug}`}
-                              className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-slate-800/80 group transition-all"
+                              className="flex items-start gap-3 p-2.5 rounded-xl hover:bg-slate-800/90 group transition-all"
                             >
-                              <div className="p-2 rounded-lg bg-amber-500/10 border border-amber-500/20 group-hover:bg-amber-500/20 group-hover:border-amber-400 group-hover:scale-105 transition-all shrink-0">
+                              <div className="p-2 rounded-lg bg-amber-500/15 border border-amber-500/30 group-hover:bg-amber-500/25 group-hover:border-amber-400 group-hover:scale-105 transition-all shrink-0">
                                 {serviceIcons[service.slug] || <Sparkles className="w-5 h-5 text-amber-400" />}
                               </div>
                               <div>
-                                <div className="text-sm font-semibold text-slate-100 group-hover:text-amber-300 transition-colors flex items-center gap-1.5">
+                                <div className="text-sm font-bold text-white group-hover:text-amber-300 transition-colors flex items-center gap-1.5">
                                   <span>{service.title}</span>
                                   <ArrowRight className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all text-amber-400" />
                                 </div>
-                                <p className="text-xs text-slate-400 line-clamp-1 mt-0.5">
+                                <p className="text-xs text-slate-300 line-clamp-1 mt-0.5">
                                   {service.shortDescription}
                                 </p>
                               </div>
@@ -224,14 +223,14 @@ export const Header: React.FC = () => {
                           ))}
                         </div>
 
-                        <div className="mt-3 pt-3 border-t border-slate-800/80 px-2 flex items-center justify-between text-xs">
-                          <span className="text-slate-400">Need custom advisory?</span>
+                        <div className="mt-3 pt-3 border-t border-white/10 px-2 flex items-center justify-between text-xs">
+                          <span className="text-slate-300 font-medium">Need custom advisory?</span>
                           <button
                             onClick={() => {
                               setServicesDropdownOpen(false);
                               setIsConsultModalOpen(true);
                             }}
-                            className="text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-1 cursor-pointer"
+                            className="text-amber-400 hover:text-amber-300 font-bold flex items-center gap-1 cursor-pointer"
                           >
                             Talk to a Partner →
                           </button>
@@ -244,10 +243,10 @@ export const Header: React.FC = () => {
 
               <Link
                 to="/contact"
-                className={`text-sm font-medium transition-all duration-200 relative py-1 ${
+                className={`text-sm font-semibold transition-all duration-200 relative py-1 ${
                   isActive('/contact')
-                    ? 'text-amber-400 font-semibold'
-                    : 'text-slate-300 hover:text-white'
+                    ? 'text-amber-400 font-bold'
+                    : 'text-slate-200 hover:text-white'
                 }`}
               >
                 <span>Contact</span>
@@ -274,7 +273,7 @@ export const Header: React.FC = () => {
             <div className="flex items-center gap-2 lg:hidden">
               <a
                 href={`tel:${firmData.phone}`}
-                className="p-2 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400 hover:bg-amber-500 hover:text-slate-950 transition-colors"
+                className="p-2 rounded-lg bg-amber-500/15 border border-amber-500/30 text-amber-400 hover:bg-amber-500 hover:text-slate-950 transition-colors"
                 aria-label="Call direct"
               >
                 <Phone className="w-4 h-4" />
@@ -291,7 +290,7 @@ export const Header: React.FC = () => {
 
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white hover:border-amber-400 focus:outline-none focus:ring-1 focus:ring-amber-400 transition-colors cursor-pointer"
+                className="p-2 rounded-lg bg-slate-800 border border-slate-700 text-slate-200 hover:text-white hover:border-amber-400 focus:outline-none focus:ring-1 focus:ring-amber-400 transition-colors cursor-pointer"
                 aria-label="Toggle Navigation Menu"
               >
                 {mobileMenuOpen ? <X className="w-5 h-5 text-amber-400" /> : <Menu className="w-5 h-5" />}
@@ -301,7 +300,7 @@ export const Header: React.FC = () => {
         </nav>
       </header>
 
-      {/* Mobile Drawer Navigation with backdrop blur */}
+      {/* Mobile Drawer Navigation */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <div className="fixed inset-0 z-50 lg:hidden flex flex-col justify-end">
@@ -311,7 +310,7 @@ export const Header: React.FC = () => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setMobileMenuOpen(false)}
-              className="fixed inset-0 bg-slate-950/80 backdrop-blur-md"
+              className="fixed inset-0 bg-slate-950/70 backdrop-blur-md"
             />
 
             {/* Slide up mobile sheet */}
@@ -320,25 +319,25 @@ export const Header: React.FC = () => {
               animate={{ y: 0 }}
               exit={{ y: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="relative w-full max-h-[88vh] bg-[#0c1324] border-t border-amber-500/30 rounded-t-3xl p-5 sm:p-6 overflow-y-auto shadow-2xl z-10 flex flex-col justify-between"
+              className="relative w-full max-h-[88vh] bg-[#121e38] border-t border-amber-500/40 rounded-t-3xl p-5 sm:p-6 overflow-y-auto shadow-2xl z-10 flex flex-col justify-between"
             >
               {/* Drawer Handle */}
-              <div className="w-12 h-1.5 rounded-full bg-slate-700 mx-auto mb-4" />
+              <div className="w-12 h-1.5 rounded-full bg-slate-600 mx-auto mb-4" />
 
               {/* Drawer Header */}
-              <div className="flex items-center justify-between pb-4 border-b border-slate-800">
+              <div className="flex items-center justify-between pb-4 border-b border-white/10">
                 <div className="flex items-center gap-2.5">
-                  <div className="p-1 rounded-lg bg-white/95 border border-amber-400/40">
+                  <div className="p-1 rounded-lg bg-white border border-amber-400/50">
                     <img src="/logo.png" alt="ANS" className="h-7 w-auto" />
                   </div>
                   <div>
                     <p className="text-sm font-bold text-white leading-none">ANS Advisory</p>
-                    <p className="text-[10px] text-amber-400 font-semibold mt-0.5">Tax & Audit Practice</p>
+                    <p className="text-[10px] text-amber-300 font-bold mt-0.5">Tax & Audit Practice</p>
                   </div>
                 </div>
                 <button
                   onClick={() => setMobileMenuOpen(false)}
-                  className="p-2 rounded-full bg-slate-800/80 text-slate-400 hover:text-white"
+                  className="p-2 rounded-full bg-slate-800 text-slate-300 hover:text-white"
                 >
                   <X className="w-4 h-4" />
                 </button>
@@ -348,33 +347,33 @@ export const Header: React.FC = () => {
               <div className="py-4 space-y-2">
                 <Link
                   to="/"
-                  className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold transition-all ${
+                  className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-bold transition-all ${
                     isActive('/') && location.pathname === '/'
-                      ? 'bg-amber-500/15 text-amber-400 border border-amber-500/30'
-                      : 'text-slate-200 hover:bg-slate-800/60'
+                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40'
+                      : 'text-slate-100 hover:bg-slate-800/80'
                   }`}
                 >
                   <span>Home</span>
-                  <ArrowRight className="w-4 h-4 opacity-50" />
+                  <ArrowRight className="w-4 h-4 opacity-70" />
                 </Link>
 
                 <Link
                   to="/about"
-                  className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold transition-all ${
+                  className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-bold transition-all ${
                     isActive('/about')
-                      ? 'bg-amber-500/15 text-amber-400 border border-amber-500/30'
-                      : 'text-slate-200 hover:bg-slate-800/60'
+                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40'
+                      : 'text-slate-100 hover:bg-slate-800/80'
                   }`}
                 >
                   <span>About Us</span>
-                  <ArrowRight className="w-4 h-4 opacity-50" />
+                  <ArrowRight className="w-4 h-4 opacity-70" />
                 </Link>
 
                 {/* Mobile Services Accordion */}
-                <div className="rounded-xl bg-slate-900/60 border border-slate-800/80 overflow-hidden">
+                <div className="rounded-xl bg-slate-900/80 border border-white/10 overflow-hidden">
                   <button
                     onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                    className="w-full flex items-center justify-between px-4 py-3 text-sm font-semibold text-slate-200"
+                    className="w-full flex items-center justify-between px-4 py-3 text-sm font-bold text-slate-100"
                   >
                     <span className="flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-amber-400" />
@@ -382,7 +381,7 @@ export const Header: React.FC = () => {
                     </span>
                     <ChevronDown
                       className={`w-4 h-4 transition-transform duration-300 ${
-                        mobileServicesOpen ? 'rotate-180 text-amber-400' : 'text-slate-400'
+                        mobileServicesOpen ? 'rotate-180 text-amber-400' : 'text-slate-300'
                       }`}
                     />
                   </button>
@@ -393,18 +392,18 @@ export const Header: React.FC = () => {
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: 'auto', opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
-                        className="px-3 pb-3 space-y-1.5 border-t border-slate-800/60 pt-2"
+                        className="px-3 pb-3 space-y-1.5 border-t border-white/10 pt-2"
                       >
                         {servicesData.map((s) => (
                           <Link
                             key={s.slug}
                             to={`/services/${s.slug}`}
-                            className="flex items-center gap-3 p-2.5 rounded-lg text-xs font-medium text-slate-300 hover:text-amber-400 hover:bg-slate-800/80 bg-slate-950/40"
+                            className="flex items-center gap-3 p-2.5 rounded-lg text-xs font-semibold text-slate-200 hover:text-amber-300 hover:bg-slate-800 bg-slate-950/60"
                           >
-                            <div className="p-1.5 rounded-md bg-amber-500/10 text-amber-400">
+                            <div className="p-1.5 rounded-md bg-amber-500/20 text-amber-400">
                               {serviceIcons[s.slug]}
                             </div>
-                            <span className="font-semibold">{s.title}</span>
+                            <span>{s.title}</span>
                           </Link>
                         ))}
                       </motion.div>
@@ -414,23 +413,23 @@ export const Header: React.FC = () => {
 
                 <Link
                   to="/contact"
-                  className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-semibold transition-all ${
+                  className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-bold transition-all ${
                     isActive('/contact')
-                      ? 'bg-amber-500/15 text-amber-400 border border-amber-500/30'
-                      : 'text-slate-200 hover:bg-slate-800/60'
+                      ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40'
+                      : 'text-slate-100 hover:bg-slate-800/80'
                   }`}
                 >
                   <span>Contact Us</span>
-                  <ArrowRight className="w-4 h-4 opacity-50" />
+                  <ArrowRight className="w-4 h-4 opacity-70" />
                 </Link>
               </div>
 
               {/* Mobile Footer CTAs */}
-              <div className="pt-4 border-t border-slate-800/80 space-y-3">
+              <div className="pt-4 border-t border-white/10 space-y-3">
                 <Button
                   variant="primary"
                   size="md"
-                  className="w-full justify-center text-sm font-bold shadow-lg shadow-amber-500/20"
+                  className="w-full justify-center text-sm font-bold shadow-lg shadow-amber-500/25"
                   onClick={() => {
                     setMobileMenuOpen(false);
                     setIsConsultModalOpen(true);
@@ -444,14 +443,14 @@ export const Header: React.FC = () => {
                 <div className="grid grid-cols-2 gap-2 text-xs">
                   <a
                     href={`tel:${firmData.phone}`}
-                    className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-amber-400 font-medium"
+                    className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-200 hover:text-amber-400 font-bold"
                   >
                     <Phone className="w-3.5 h-3.5 text-amber-400" />
                     <span>Call Now</span>
                   </a>
                   <a
                     href={`mailto:${firmData.email}`}
-                    className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-amber-400 font-medium"
+                    className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-200 hover:text-amber-400 font-bold"
                   >
                     <Mail className="w-3.5 h-3.5 text-amber-400" />
                     <span>Email Us</span>

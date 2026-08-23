@@ -35,15 +35,15 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
   );
 
   return (
-    <div className="bg-[#070b14]">
+    <div className="bg-[#0b1329]">
       {/* 1. Hero Banner */}
-      <section className="relative pt-8 sm:pt-12 pb-16 sm:pb-20 bg-gradient-to-b from-[#0a1122] via-[#070b14] to-[#070b14] border-b border-slate-800/80 overflow-hidden">
+      <section className="relative pt-8 sm:pt-12 pb-16 sm:pb-20 bg-gradient-to-b from-[#121f3d] via-[#0b1329] to-[#0b1329] border-b border-white/10 overflow-hidden">
         {/* Background glow */}
-        <div className="absolute top-0 right-1/4 w-[350px] sm:w-[500px] h-[350px] sm:h-[500px] bg-amber-500/10 rounded-full blur-[100px] sm:blur-[140px] pointer-events-none" />
+        <div className="absolute top-0 right-1/4 w-[350px] sm:w-[500px] h-[350px] sm:h-[500px] bg-amber-500/15 rounded-full blur-[100px] sm:blur-[160px] pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Breadcrumb Navigation */}
-          <div className="flex items-center gap-2 text-xs text-slate-400 mb-5 sm:mb-6 overflow-x-auto whitespace-nowrap py-1">
+          <div className="flex items-center gap-2 text-xs text-slate-300 mb-5 sm:mb-6 overflow-x-auto whitespace-nowrap py-1 font-medium">
             <Link to="/" className="hover:text-amber-400 transition-colors">
               Home
             </Link>
@@ -52,7 +52,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
               Services
             </Link>
             <span>/</span>
-            <span className="text-amber-400 font-medium">{service.title}</span>
+            <span className="text-amber-300 font-bold">{service.title}</span>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -64,7 +64,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
               transition={{ duration: 0.6 }}
               className="lg:col-span-8 space-y-4 sm:space-y-5"
             >
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-semibold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 text-xs font-bold uppercase tracking-wider">
                 <IconRenderer name={service.icon} className="w-4 h-4 text-amber-400" />
                 <span>Core Practice Line</span>
               </div>
@@ -73,11 +73,11 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
                 {service.title}
               </h1>
 
-              <p className="text-base sm:text-xl text-amber-300 font-medium leading-relaxed">
+              <p className="text-base sm:text-xl text-amber-300 font-semibold leading-relaxed">
                 {service.tagline}
               </p>
 
-              <p className="text-xs sm:text-base text-slate-300 leading-relaxed max-w-3xl">
+              <p className="text-xs sm:text-base text-slate-200 leading-relaxed max-w-3xl font-normal">
                 {service.overview}
               </p>
 
@@ -98,7 +98,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
                   size="lg"
                   href="/contact"
                   icon={<ArrowRight className="w-4 h-4" />}
-                  className="w-full sm:w-auto"
+                  className="w-full sm:w-auto text-amber-300 border-amber-400/60 hover:bg-amber-400/10"
                 >
                   Send Detailed Inquiry
                 </Button>
@@ -112,34 +112,34 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
               transition={{ duration: 0.6, delay: 0.15 }}
               className="lg:col-span-4"
             >
-              <div className="rounded-2xl bg-[#0e1629] border border-amber-500/30 p-5 sm:p-7 shadow-2xl shadow-black/80 card-hover-glow">
+              <div className="rounded-2xl bg-[#142347] border border-amber-400/40 p-5 sm:p-7 shadow-2xl shadow-slate-950/40 card-hover-glow">
                 <h3 className="text-white font-bold text-sm sm:text-base mb-4 flex items-center gap-2">
                   <FileCheck2 className="w-5 h-5 text-amber-400" />
                   Key Engagement Highlights
                 </h3>
 
-                <ul className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm text-slate-300">
-                  <li className="flex items-start gap-2.5">
+                <ul className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm text-slate-200">
+                  <li className="flex items-start gap-2.5 font-medium">
                     <CheckCircle2 className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                     <span>Senior Partner Direct Supervision</span>
                   </li>
-                  <li className="flex items-start gap-2.5">
+                  <li className="flex items-start gap-2.5 font-medium">
                     <CheckCircle2 className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                     <span>Statutory & Regulatory Rigor Guaranteed</span>
                   </li>
-                  <li className="flex items-start gap-2.5">
+                  <li className="flex items-start gap-2.5 font-medium">
                     <CheckCircle2 className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                     <span>Confidential, Cloud-Enabled Workflows</span>
                   </li>
-                  <li className="flex items-start gap-2.5">
+                  <li className="flex items-start gap-2.5 font-medium">
                     <CheckCircle2 className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                     <span>Custom SLAs & Transparent Billing</span>
                   </li>
                 </ul>
 
-                <div className="mt-5 pt-4 border-t border-slate-800 text-xs text-slate-400 space-y-1">
-                  <p>Direct Inquiries: <a href={`tel:${firmData.phone}`} className="text-amber-400 font-semibold hover:underline">{firmData.phone}</a></p>
-                  <p>Email: <span className="text-slate-200">{firmData.email}</span></p>
+                <div className="mt-5 pt-4 border-t border-white/10 text-xs text-slate-300 space-y-1 font-medium">
+                  <p>Direct Inquiries: <a href={`tel:${firmData.phone}`} className="text-amber-300 font-bold hover:underline">{firmData.phone}</a></p>
+                  <p>Email: <span className="text-white">{firmData.email}</span></p>
                 </div>
               </div>
             </motion.div>
@@ -149,17 +149,17 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
       </section>
 
       {/* 2. Sub-Services / "What We Offer" Section */}
-      <section className="py-16 sm:py-24 bg-[#070b14]">
+      <section className="py-16 sm:py-24 bg-[#0b1329]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-10 sm:mb-12">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20 mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-500/15 text-amber-300 border border-amber-500/30 mb-3">
               <Layers className="w-3.5 h-3.5" />
               <span>Scope of Capabilities</span>
             </div>
             <h2 className="text-xl sm:text-3xl font-extrabold text-white">
               What We Offer in <span className="gold-gradient-text">{service.title}</span>
             </h2>
-            <p className="text-xs sm:text-sm text-slate-400 mt-2">
+            <p className="text-xs sm:text-sm text-slate-300 mt-2 font-normal">
               End-to-end execution backed by senior chartered professionals, precision checklists, and proactive compliance alerts.
             </p>
           </div>
@@ -173,7 +173,7 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
       </section>
 
       {/* 3. "Why It Matters" & Deliverables Matrix */}
-      <section className="py-16 sm:py-20 bg-[#080d19] border-y border-slate-800">
+      <section className="py-16 sm:py-20 bg-gradient-to-b from-[#121f3d] via-[#16274a] to-[#121f3d] border-y border-white/15">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
             
@@ -185,13 +185,13 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
               transition={{ duration: 0.5 }}
               className="lg:col-span-6 space-y-4"
             >
-              <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+              <span className="text-xs font-bold uppercase tracking-wider text-amber-300">
                 Strategic Impact
               </span>
               <h3 className="text-xl sm:text-3xl font-bold text-white leading-tight">
                 Why Professional {service.title} Matters to Your Bottom Line
               </h3>
-              <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
+              <p className="text-xs sm:text-base text-slate-200 leading-relaxed font-normal">
                 {service.whyItMatters}
               </p>
               <div className="pt-2">
@@ -215,18 +215,18 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
               transition={{ duration: 0.5 }}
               className="lg:col-span-6"
             >
-              <div className="rounded-2xl bg-[#0f172a] border border-slate-800 p-5 sm:p-8 card-hover-glow">
+              <div className="rounded-2xl bg-[#182a50]/95 border border-white/20 p-5 sm:p-8 card-hover-glow">
                 <h4 className="text-sm sm:text-lg font-bold text-white mb-4 flex items-center gap-2">
                   <CheckCircle2 className="w-5 h-5 text-amber-400" />
                   Key Tangible Deliverables
                 </h4>
                 <div className="space-y-2.5 sm:space-y-3">
                   {service.deliverables.map((del, dIdx) => (
-                    <div key={dIdx} className="flex items-start gap-3 p-2.5 sm:p-3 rounded-xl bg-slate-900/70 border border-slate-800/80 hover:border-amber-500/30 transition-colors">
-                      <span className="w-5 h-5 rounded-full bg-amber-500/10 text-amber-400 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">
+                    <div key={dIdx} className="flex items-start gap-3 p-2.5 sm:p-3 rounded-xl bg-[#111e3b] border border-white/10 hover:border-amber-400/40 transition-colors">
+                      <span className="w-5 h-5 rounded-full bg-amber-500/20 text-amber-300 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5 border border-amber-500/30">
                         {dIdx + 1}
                       </span>
-                      <span className="text-xs sm:text-sm text-slate-200">{del}</span>
+                      <span className="text-xs sm:text-sm text-slate-200 font-medium">{del}</span>
                     </div>
                   ))}
                 </div>
@@ -241,20 +241,20 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
       {service.faqs && <ServiceFaq faqs={service.faqs} serviceTitle={service.title} />}
 
       {/* 5. Cross-Service Navigation */}
-      <section className="py-14 sm:py-20 bg-[#070b14] border-t border-slate-800">
+      <section className="py-14 sm:py-20 bg-[#0b1329] border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 mb-6 sm:mb-8">
             <div>
               <h3 className="text-lg sm:text-2xl font-bold text-white">
                 Explore Other Core Practice Areas
               </h3>
-              <p className="text-xs sm:text-sm text-slate-400">
+              <p className="text-xs sm:text-sm text-slate-300">
                 Integrated financial solutions to support every dimension of your business.
               </p>
             </div>
             <Link
               to="/#services"
-              className="text-xs sm:text-sm text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-1"
+              className="text-xs sm:text-sm text-amber-300 hover:text-amber-200 font-bold flex items-center gap-1"
             >
               View All Services →
             </Link>
@@ -265,18 +265,18 @@ export const ServiceDetail: React.FC<ServiceDetailProps> = ({ service }) => {
               <Link
                 key={other.slug}
                 to={`/services/${other.slug}`}
-                className="group p-5 sm:p-6 rounded-2xl bg-[#0e1629] border border-slate-800 hover:border-amber-500/40 transition-all hover:-translate-y-1.5 block card-hover-glow"
+                className="group p-5 sm:p-6 rounded-2xl bg-[#142344]/90 border border-white/15 hover:border-amber-400/60 transition-all hover:-translate-y-1.5 block card-hover-glow"
               >
-                <div className="p-2.5 sm:p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400 w-fit mb-3 sm:mb-4 group-hover:bg-amber-500/20 group-hover:scale-110 transition-all">
+                <div className="p-2.5 sm:p-3 rounded-xl bg-amber-500/15 border border-amber-500/30 text-amber-400 w-fit mb-3 sm:mb-4 group-hover:bg-amber-500/25 group-hover:scale-110 transition-all">
                   <IconRenderer name={other.icon} className="w-5 h-5" />
                 </div>
                 <h4 className="text-sm sm:text-base font-bold text-white group-hover:text-amber-300 transition-colors mb-1.5 sm:mb-2">
                   {other.title}
                 </h4>
-                <p className="text-xs text-slate-400 line-clamp-2 mb-3 sm:mb-4">
+                <p className="text-xs text-slate-200 line-clamp-2 mb-3 sm:mb-4 font-normal">
                   {other.shortDescription}
                 </p>
-                <span className="text-xs font-semibold text-amber-400 flex items-center gap-1">
+                <span className="text-xs font-bold text-amber-300 flex items-center gap-1">
                   <span>Learn more</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </span>

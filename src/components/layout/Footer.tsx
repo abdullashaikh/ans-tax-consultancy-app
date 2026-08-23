@@ -55,19 +55,19 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#050811] text-slate-400 border-t border-slate-800/80 relative overflow-hidden">
+    <footer className="bg-[#091124] text-slate-300 border-t border-white/10 relative overflow-hidden">
       {/* Ambient background decoration */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-10 w-96 h-96 bg-blue-900/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-10 w-96 h-96 bg-blue-700/15 rounded-full blur-3xl pointer-events-none" />
 
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-slate-800/80">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-white/10">
           
           {/* Column 1: Brand & Bio (4 cols) */}
           <div className="lg:col-span-4 space-y-5">
             <Link to="/" className="flex items-center gap-3 group inline-flex">
-              <div className="p-1.5 rounded-xl bg-white/95 border border-amber-400/40 shadow-sm">
+              <div className="p-1.5 rounded-xl bg-white border border-amber-400/50 shadow-sm">
                 <img
                   src="/logo.png"
                   alt="ANS Logo"
@@ -76,13 +76,13 @@ export const Footer: React.FC = () => {
               </div>
               <div>
                 <span className="text-xl font-extrabold text-white tracking-tight">ANS</span>
-                <span className="block text-[11px] uppercase tracking-wider text-amber-400 font-semibold">
+                <span className="block text-[11px] uppercase tracking-wider text-amber-300 font-bold">
                   Tax Consultancy
                 </span>
               </div>
             </Link>
 
-            <p className="text-sm text-slate-300 leading-relaxed">
+            <p className="text-sm text-slate-200 leading-relaxed font-normal">
               {firmData.tagline}. We deliver strategic financial insight, rigorous audit assurance, and proactive tax compliance to help ambitious enterprises thrive.
             </p>
 
@@ -92,7 +92,7 @@ export const Footer: React.FC = () => {
                 href={firmData.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-300 hover:text-amber-400 hover:border-amber-400/50 hover:bg-slate-800 transition-all"
+                className="w-9 h-9 rounded-lg bg-[#121f3d] border border-white/15 flex items-center justify-center text-slate-200 hover:text-amber-400 hover:border-amber-400/50 hover:bg-[#1a2c55] transition-all"
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon />
@@ -101,7 +101,7 @@ export const Footer: React.FC = () => {
                 href={firmData.social.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-300 hover:text-amber-400 hover:border-amber-400/50 hover:bg-slate-800 transition-all"
+                className="w-9 h-9 rounded-lg bg-[#121f3d] border border-white/15 flex items-center justify-center text-slate-200 hover:text-amber-400 hover:border-amber-400/50 hover:bg-[#1a2c55] transition-all"
                 aria-label="Twitter / X"
               >
                 <TwitterIcon />
@@ -110,7 +110,7 @@ export const Footer: React.FC = () => {
                 href={firmData.social.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-300 hover:text-amber-400 hover:border-amber-400/50 hover:bg-slate-800 transition-all"
+                className="w-9 h-9 rounded-lg bg-[#121f3d] border border-white/15 flex items-center justify-center text-slate-200 hover:text-amber-400 hover:border-amber-400/50 hover:bg-[#1a2c55] transition-all"
                 aria-label="Facebook"
               >
                 <FacebookIcon />
@@ -119,7 +119,7 @@ export const Footer: React.FC = () => {
                 href={firmData.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-300 hover:text-amber-400 hover:border-amber-400/50 hover:bg-slate-800 transition-all"
+                className="w-9 h-9 rounded-lg bg-[#121f3d] border border-white/15 flex items-center justify-center text-slate-200 hover:text-amber-400 hover:border-amber-400/50 hover:bg-[#1a2c55] transition-all"
                 aria-label="Instagram"
               >
                 <InstagramIcon />
@@ -131,9 +131,9 @@ export const Footer: React.FC = () => {
               {firmData.certifications.map((cert, idx) => (
                 <span
                   key={idx}
-                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] bg-slate-900/90 text-slate-300 border border-slate-800"
+                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-[11px] bg-[#121f3d] text-slate-200 border border-white/15 font-semibold"
                 >
-                  <ShieldCheck className="w-3 h-3 text-amber-400" />
+                  <ShieldCheck className="w-3.5 h-3.5 text-amber-400" />
                   {cert}
                 </span>
               ))}
@@ -145,29 +145,29 @@ export const Footer: React.FC = () => {
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">
               Navigation
             </h3>
-            <ul className="space-y-2.5 text-sm">
+            <ul className="space-y-2.5 text-sm font-medium">
               <li>
-                <Link to="/" className="hover:text-amber-400 transition-colors">
+                <Link to="/" className="text-slate-200 hover:text-amber-400 transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-amber-400 transition-colors">
+                <Link to="/about" className="text-slate-200 hover:text-amber-400 transition-colors">
                   About the Firm
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-amber-400 transition-colors">
+                <Link to="/contact" className="text-slate-200 hover:text-amber-400 transition-colors">
                   Contact & Location
                 </Link>
               </li>
               <li>
-                <a href="/#process" className="hover:text-amber-400 transition-colors">
+                <a href="/#process" className="text-slate-200 hover:text-amber-400 transition-colors">
                   How We Work
                 </a>
               </li>
               <li>
-                <a href="/#testimonials" className="hover:text-amber-400 transition-colors">
+                <a href="/#testimonials" className="text-slate-200 hover:text-amber-400 transition-colors">
                   Client Reviews
                 </a>
               </li>
@@ -179,14 +179,14 @@ export const Footer: React.FC = () => {
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">
               Core Practice Areas
             </h3>
-            <ul className="space-y-2.5 text-sm">
+            <ul className="space-y-2.5 text-sm font-medium">
               {servicesData.map((service) => (
                 <li key={service.slug}>
                   <Link
                     to={`/services/${service.slug}`}
-                    className="hover:text-amber-400 transition-colors flex items-center gap-1.5 group"
+                    className="text-slate-200 hover:text-amber-400 transition-colors flex items-center gap-1.5 group"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500/40 group-hover:bg-amber-400 transition-colors"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400/60 group-hover:bg-amber-400 transition-colors"></span>
                     <span>{service.title}</span>
                   </Link>
                 </li>
@@ -202,23 +202,23 @@ export const Footer: React.FC = () => {
             <div className="space-y-3 text-sm">
               <a
                 href={`tel:${firmData.phone}`}
-                className="flex items-start gap-2.5 hover:text-amber-400 transition-colors group"
+                className="flex items-start gap-2.5 hover:text-amber-400 transition-colors group text-slate-200 font-semibold"
               >
                 <Phone className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                 <span>{firmData.phone}</span>
               </a>
               <a
                 href={`mailto:${firmData.email}`}
-                className="flex items-start gap-2.5 hover:text-amber-400 transition-colors group"
+                className="flex items-start gap-2.5 hover:text-amber-400 transition-colors group text-slate-200"
               >
                 <Mail className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                 <span className="break-all">{firmData.email}</span>
               </a>
-              <div className="flex items-start gap-2.5">
+              <div className="flex items-start gap-2.5 text-slate-300">
                 <MapPin className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                 <span className="text-xs leading-relaxed">{firmData.address}</span>
               </div>
-              <div className="flex items-start gap-2.5">
+              <div className="flex items-start gap-2.5 text-slate-300">
                 <Clock className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                 <span className="text-xs">{firmData.workingHours}</span>
               </div>
@@ -226,11 +226,11 @@ export const Footer: React.FC = () => {
 
             {/* Newsletter Subscription */}
             <div className="pt-2">
-              <p className="text-xs text-slate-300 font-medium mb-2">
+              <p className="text-xs text-slate-200 font-semibold mb-2">
                 Subscribe to Tax & Regulatory Updates
               </p>
               {subscribed ? (
-                <div className="flex items-center gap-2 p-2.5 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-medium">
+                <div className="flex items-center gap-2 p-2.5 rounded-lg bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 text-xs font-semibold">
                   <CheckCircle2 className="w-4 h-4" />
                   <span>Subscribed successfully!</span>
                 </div>
@@ -242,11 +242,11 @@ export const Footer: React.FC = () => {
                     placeholder="Work email..."
                     value={newsletterEmail}
                     onChange={(e) => setNewsletterEmail(e.target.value)}
-                    className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-400"
+                    className="w-full px-3 py-2 rounded-lg bg-[#142347] border border-white/20 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-amber-400"
                   />
                   <button
                     type="submit"
-                    className="px-3.5 py-2 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold text-xs flex items-center justify-center transition-colors cursor-pointer"
+                    className="px-3.5 py-2 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center transition-colors cursor-pointer"
                     aria-label="Subscribe"
                   >
                     <Send className="w-3.5 h-3.5" />
@@ -259,7 +259,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Bar: Copyright & Back to Top */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-medium">
           <p>
             © {new Date().getFullYear()} {firmData.name}. All rights reserved. Professional Services & Tax Advisory.
           </p>
@@ -268,7 +268,7 @@ export const Footer: React.FC = () => {
             <span>Confidentiality Guaranteed</span>
             <button
               onClick={scrollToTop}
-              className="flex items-center gap-1.5 text-slate-400 hover:text-amber-400 transition-colors focus:outline-none"
+              className="flex items-center gap-1.5 text-slate-300 hover:text-amber-400 transition-colors focus:outline-none font-semibold cursor-pointer"
             >
               <span>Back to top</span>
               <ArrowUp className="w-3.5 h-3.5" />
