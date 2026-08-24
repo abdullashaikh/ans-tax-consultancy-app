@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Decade of Dedication to Financial Precision & Strategic Advisory",
+    "subtitle": "Founded on principles of integrity, technical mastery, and client-first commitment, ANS delivers transformative accounting, audit, tax, and CFO solutions to ambitious enterprises."
+  },
+  "story": {
+    "heading": "Our Journey & Legacy",
+    "paragraphs": [
+      "Established in 2015, ANS Tax Consultancy emerged with a clear mission: to dismantle the complexity of corporate finance and regulatory compliance for growing businesses. What started as a boutique tax practice has evolved into a premier multi-disciplinary advisory firm serving hundreds of corporate entities across diverse industries.",
+      "Over the past decade, the regulatory and technological landscape has undergone massive transformation—from the implementation of GST and faceless tax assessments to AI-driven bookkeeping. ANS has continually stayed ahead of the curve, equipping our clients with modern financial tools and sharp advisory.",
+      "Today, we stand proud as trusted advisors to entrepreneurs, high-growth startups, and established enterprises who depend on us for spotless financial records, uncompromising audits, and visionary CFO strategies."
+    ]
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To empower business leaders with pristine financial governance, ironclad regulatory compliance, and strategic financial intelligence that accelerate sustainable enterprise value."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "To be the most trusted and forward-thinking financial advisory firm, recognized for excellence, unwavering integrity, and innovation in tax and corporate finance."
+  },
+  "values": [
+    {
+      "title": "Uncompromising Integrity",
+      "description": "We uphold the highest ethical standards in every audit, computation, and advisory engagement.",
+      "icon": "Shield"
+    },
+    {
+      "title": "Technical Precision",
+      "description": "Our work is anchored in exhaustive legal research, rigorous financial logic, and zero tolerance for error.",
+      "icon": "Target"
+    },
+    {
+      "title": "Client-Centric Agility",
+      "description": "We adapt to our clients' unique operating models and deliver responsive, proactive communication.",
+      "icon": "Users"
+    },
+    {
+      "title": "Continuous Innovation",
+      "description": "We leverage cloud infrastructure and digital workflows to deliver faster turnaround and richer insights.",
+      "icon": "Zap"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "CA A. N. Sharma",
+      "role": "Founder & Managing Partner",
+      "qualifications": "FCA, DISA, B.Com",
+      "experience": "15+ Years Experience",
+      "bio": "Specializes in Corporate Tax Structuring, Statutory Audit, and Transaction Advisory. Trusted advisor to multi-crore manufacturing and tech enterprises.",
+      "image": "/team/partner-1.jpg"
+    },
+    {
+      "name": "CA N. K. Suthar",
+      "role": "Senior Partner - Indirect Tax & Litigation",
+      "qualifications": "FCA, GST Specialist",
+      "experience": "12+ Years Experience",
+      "bio": "Leading authority on GST assessments, appellate tribunals, and supply-chain indirect tax optimization across multi-state footprints.",
+      "image": "/team/partner-2.jpg"
+    },
+    {
+      "name": "S. R. Mehta",
+      "role": "Head of Financial Advisory & Virtual CFO",
+      "qualifications": "CFA, MBA (Finance)",
+      "experience": "10+ Years Experience",
+      "bio": "Directs financial planning, investment due diligence, business valuation, and capital raising strategies for scaling businesses.",
+      "image": "/team/partner-3.jpg"
+    }
+  ]
+}

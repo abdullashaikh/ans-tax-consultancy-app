@@ -1,0 +1,491 @@
+[
+  {
+    "slug": "income-tax-filing",
+    "title": "Income Tax Return (ITR) Filing",
+    "shortDescription": "Expert-assisted ITR filing for salaried individuals, capital gains, freelancers, business owners, and NRIs with AIS/26AS reconciliation.",
+    "icon": "Receipt",
+    "tagline": "Accurate, Maximum-Refund Income Tax Returns Prepared by Chartered Professionals",
+    "overview": "Our Income Tax Practice covers comprehensive return preparation and e-filing for all categories of taxpayers across ITR-1, ITR-2, ITR-3, ITR-4, ITR-5, and ITR-6. We conduct exhaustive reconciliation with Form 26AS, Annual Information Statement (AIS), and Taxpayer Information Summary (TIS) to guarantee 100% compliance and minimize notice risks.",
+    "whyItMatters": "Filing income tax returns accurately protects you from Section 139 late fees, interest under 234A/B/C, and scrutiny notices under Section 143(2). Professional filing ensures you claim all legitimate deductions (80C, 80D, 80G, 80TTA, 24b) and maximize your legal refund.",
+    "priceStarting": "₹ 999",
+    "packages": [
+      {
+        "name": "ITR-1 (Salaried Individual)",
+        "price": "₹ 999",
+        "features": ["Single Form 16 Salary Income", "House Property Income (1 House)", "Interest & Other Income", "Form 26AS & AIS Verification", "E-Verification Assistance"]
+      },
+      {
+        "name": "ITR-2 (Capital Gains & Multiple Properties)",
+        "price": "₹ 2,499",
+        "features": ["Shares & Mutual Funds Capital Gains", "Cryptocurrency & VDA Gains", "Multiple House Properties", "Foreign Assets & Income", "Loss Set-off & Carry Forward"]
+      },
+      {
+        "name": "ITR-3 / ITR-4 (Business & Professionals)",
+        "price": "₹ 3,999",
+        "features": ["Presumptive Taxation (Sec 44AD/44ADA)", "Proprietorship P&L and Balance Sheet", "Freelancer & Consultant Income", "Depreciation Schedules", "Advance Tax Computation"]
+      }
+    ],
+    "offerings": [
+      {
+        "title": "Salaried & Individual ITR (ITR-1 / ITR-2)",
+        "description": "Exhaustive salary calculation, HRA exemption, housing loan interest deduction, and dividend/interest income reporting.",
+        "icon": "User"
+      },
+      {
+        "title": "Capital Gains Tax Advisory",
+        "description": "Computation of Short-Term (STCG) and Long-Term (LTCG) gains on equity, mutual funds, real estate, and unlisted securities.",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Business & Presumptive Tax (ITR-3 / ITR-4)",
+        "description": "Presumptive taxation under Section 44AD, 44ADA, and 44AE, as well as regular books of accounts for proprietary firms.",
+        "icon": "Briefcase"
+      },
+      {
+        "title": "NRI & Foreign Income Taxation",
+        "description": "DTAA treaty benefits, foreign asset reporting (Schedule FA), NRE/NRO account taxation, and 15CA/15CB certificates.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Corporate Tax Filing (ITR-6 / ITR-7)",
+        "description": "Annual return filing for Private Limited companies, LLPs, Section 8 companies, and charitable trusts.",
+        "icon": "Building2"
+      },
+      {
+        "title": "Tax Notice Representation & Rectifications",
+        "description": "Drafting responses to Section 139(9) defective notices, 143(1) intimation adjustments, and 148 reassessment notices.",
+        "icon": "ShieldAlert"
+      }
+    ],
+    "requiredDocuments": [
+      "PAN Card & Aadhaar Card",
+      "Form 16 / 16A from Employer / Deductors",
+      "Annual Bank Account Statements (all accounts)",
+      "Capital Gains Statement / Broker Ledger (Zerodha, Groww, etc.)",
+      "Home Loan Interest Certificate / LIC / Tuition Fee Receipts"
+    ],
+    "deliverables": [
+      "Official ITR-V Acknowledgment Receipt from Income Tax Portal",
+      "Complete Tax Computation Sheet with deduction itemization",
+      "AIS / TIS mismatch reconciliation report",
+      "E-verification guidance and refund tracking support"
+    ],
+    "faqs": [
+      {
+        "question": "Which is better: Old Tax Regime or New Tax Regime?",
+        "answer": "It depends on your eligible deductions. If your total deductions (80C, 80D, HRA, Home Loan) exceed ₹3.75 - ₹4 Lakhs, the Old Regime may be beneficial. Otherwise, the New Regime with lower slab rates and ₹75,000 standard deduction is typically better. Use our interactive Tax Calculator to compare instantly!"
+      },
+      {
+        "question": "What happens if I miss the ITR filing deadline?",
+        "answer": "Filing after the July 31 deadline attracts a late filing penalty under Section 234F (up to ₹5,000) and interest of 1% per month under Section 234A on any unpaid tax liability."
+      }
+    ]
+  },
+  {
+    "slug": "gst-services",
+    "title": "GST Registration & Return Filing",
+    "shortDescription": "Complete Goods & Services Tax solutions: new registration, monthly GSTR-1/3B filing, annual reconciliation GSTR-9, and refund claims.",
+    "icon": "ReceiptText",
+    "tagline": "Seamless GST Compliance, Maximum Input Tax Credit, and Zero Penalties",
+    "overview": "ANS GST Practice provides end-to-end management of Goods and Services Tax for traders, manufacturers, e-commerce sellers, and service providers. From instant GSTIN allotment to monthly filing and input credit reconciliation with GSTR-2B, we safeguard your business from supply chain compliance blocks.",
+    "whyItMatters": "Mismatched GST returns lead to blocked Input Tax Credit (ITC), automated demand notices, and supplier disputes. Our automated 2B reconciliation guarantees that you only pay what is legally due while securing all eligible input credits.",
+    "priceStarting": "₹ 1,499",
+    "packages": [
+      {
+        "name": "New GST Registration",
+        "price": "₹ 1,499",
+        "features": ["GSTIN Allotment Certificate", "HSN/SAC Code Advisory", "Bank Account Linking", "Authorized Signatory Setup", "Delivery in 3 to 7 Days"]
+      },
+      {
+        "name": "Monthly GST Compliance Plan",
+        "price": "₹ 1,999 / mo",
+        "features": ["Monthly GSTR-1 (Outward Supplies)", "Monthly GSTR-3B (Tax Payment)", "GSTR-2B Input Credit Matching", "E-Way Bill Advisory", "Dedicated GST Consultant"]
+      },
+      {
+        "name": "Annual Return & Audit (GSTR-9/9C)",
+        "price": "₹ 4,999",
+        "features": ["Comprehensive 12-Month Reconciliation", "GSTR-9 Annual Return Preparation", "GSTR-9C Self-Certified Reconciliation", "Spillover Transaction Adjustment", "Tax Payment Settlement (DRC-03)"]
+      }
+    ],
+    "offerings": [
+      {
+        "title": "New GST Registration & Amendments",
+        "description": "Proprietorship, Partnership, LLP, Company, and Non-Resident Taxable Person registration with Aadhaar OTP authentication.",
+        "icon": "PlusCircle"
+      },
+      {
+        "title": "Monthly Return Filings (GSTR-1 & GSTR-3B)",
+        "description": "Accurate invoice recording, outward supply data upload, tax liability calculation, and return submission before the 11th & 20th.",
+        "icon": "Calendar"
+      },
+      {
+        "title": "Input Tax Credit (ITC) 2B Reconciliation",
+        "description": "Vendor-wise matching between purchase register and Government GSTR-2B to capture 100% eligible input credit.",
+        "icon": "CheckCheck"
+      },
+      {
+        "title": "Letter of Undertaking (LUT) for Exporters",
+        "description": "Annual LUT filing to export goods and services without upfront payment of IGST.",
+        "icon": "FileText"
+      },
+      {
+        "title": "GST Notice Resolution & Department Appeals",
+        "description": "Drafting technical replies to ASMT-10 scrutiny notices, DRC-01 demand notices, and handling GST audit queries.",
+        "icon": "Scale"
+      },
+      {
+        "title": "GST Cancellation & Revocation",
+        "description": "Surrender of inactive GSTIN or filing revocation applications to restore suspended registrations.",
+        "icon": "RefreshCcw"
+      }
+    ],
+    "requiredDocuments": [
+      "PAN Card & Aadhaar Card of Promoters / Partners / Directors",
+      "Electricity Bill / Property Tax Receipt of Business Place",
+      "Rent Agreement / NOC from Property Owner",
+      "Cancelled Cheque / Bank Statement",
+      "Board Resolution / Authorization Letter (for Companies/LLPs)"
+    ],
+    "deliverables": [
+      "Government-issued GST Registration Certificate (Form GST REG-06)",
+      "Filed GSTR-1 and GSTR-3B Acknowledgment Receipts (ARN)",
+      "Detailed Monthly ITC Reconciliation Spreadsheets",
+      "Challan Receipts for GST tax payments"
+    ],
+    "faqs": [
+      {
+        "question": "What is the turnover threshold for mandatory GST registration?",
+        "answer": "In India, GST registration is mandatory for businesses supplying goods with annual turnover exceeding ₹40 Lakhs (₹20 Lakhs for Special Category States), and for service providers exceeding ₹20 Lakhs (₹10 Lakhs in Special Category States). It is also mandatory for e-commerce sellers and interstate suppliers regardless of turnover."
+      },
+      {
+        "question": "What is GSTR-2B and why is it important?",
+        "answer": "GSTR-2B is an auto-drafted Input Tax Credit (ITC) statement generated on the 14th of every month based on your suppliers' filings. By law, you can only claim ITC that appears in your GSTR-2B."
+      }
+    ]
+  },
+  {
+    "slug": "company-registration",
+    "title": "Company & Business Incorporation",
+    "shortDescription": "Incorporate Private Limited, LLP, OPC, Section 8, or Partnership firms with MCA SPICe+ approval, DIN, PAN, TAN, and DSC.",
+    "icon": "Building2",
+    "tagline": "Turn Your Business Idea into a Registered Legal Entity in 7 to 10 Working Days",
+    "overview": "Our Corporate Law & MCA Incorporation practice assists entrepreneurs and foreign companies in setting up the optimal legal structure in India. We handle everything from name reservation (RUN/SPICe+ Part A), Digital Signature Certificates (DSC Class 3), drafting customized MOA & AOA, to securing the Certificate of Incorporation with PAN, TAN, EPFO, and ESIC numbers.",
+    "whyItMatters": "The right corporate structure limits your personal liability, enhances your credibility with enterprise clients and investors, enables equity fundraising, and unlocks government incentives like Startup India tax exemptions.",
+    "priceStarting": "₹ 4,999",
+    "packages": [
+      {
+        "name": "Private Limited Company",
+        "price": "₹ 6,999 + Govt Fees",
+        "features": ["2 Digital Signatures (DSC Class 3)", "2 Director Identification Numbers (DIN)", "Name Approval (RUN)", "Drafting MOA & AOA", "Certificate of Incorporation + PAN + TAN + Bank A/c Setup"]
+      },
+      {
+        "name": "Limited Liability Partnership (LLP)",
+        "price": "₹ 5,499 + Govt Fees",
+        "features": ["2 Designated Partner DSCs", "Name Approval via RUN-LLP", "Drafting Customized LLP Agreement", "Certificate of Incorporation (Form FiLLiP)", "PAN & TAN Allotment"]
+      },
+      {
+        "name": "One Person Company (OPC)",
+        "price": "₹ 4,999 + Govt Fees",
+        "features": ["1 Director DSC & Nominee Consent", "100% Single Shareholder Ownership", "MOA & AOA Drafting", "Certificate of Incorporation", "PAN & TAN Generation"]
+      }
+    ],
+    "offerings": [
+      {
+        "title": "Private Limited Company Incorporation",
+        "description": "Standard corporate vehicle preferred by venture capitalists and scaling businesses with limited liability.",
+        "icon": "Building"
+      },
+      {
+        "title": "Limited Liability Partnership (LLP)",
+        "description": "Low-compliance hybrid structure combining partnership flexibility with corporate limited liability.",
+        "icon": "Users"
+      },
+      {
+        "title": "Startup India DPIIT Recognition",
+        "description": "Official Startup India certification, Section 80-IAC tax holiday application, and angel tax exemption support.",
+        "icon": "Rocket"
+      },
+      {
+        "title": "Foreign Subsidiary & Branch Office",
+        "description": "Inbound FDI setup, RBI FEMA compliance, and foreign company wholly owned subsidiary incorporation in India.",
+        "icon": "Globe"
+      },
+      {
+        "title": "Section 8 Non-Profit Company",
+        "description": "Incorporation of non-profit companies for social welfare, charity, education, and 12A/80G NGO registrations.",
+        "icon": "HeartHandshake"
+      },
+      {
+        "title": "Sole Proprietorship & Partnership Firm",
+        "description": "Affidavit drafting, Partnership Deed execution, and local Registrar of Firms (ROF) registration.",
+        "icon": "FileSignature"
+      }
+    ],
+    "requiredDocuments": [
+      "PAN Card and Passport / Voter ID / Driving License of all Directors",
+      "Latest Bank Statement / Electricity Bill showing residential address",
+      "Passport size photographs of Directors",
+      "Registered Office Proof: Electricity Bill + Rent Agreement + NOC from Owner"
+    ],
+    "deliverables": [
+      "Ministry of Corporate Affairs (MCA) Certificate of Incorporation (COI)",
+      "Corporate Identification Number (CIN)",
+      "Company PAN & TAN Cards",
+      "Certified Digital MOA & AOA / LLP Agreement",
+      "DIN Allotment Letters for all Directors"
+    ],
+    "faqs": [
+      {
+        "question": "How much capital is required to start a Private Limited Company?",
+        "answer": "There is no minimum paid-up capital requirement under the Companies Act. You can start with an authorized capital of ₹1,00,000 and paid-up capital as low as ₹1,000."
+      },
+      {
+        "question": "How long does company registration take in India?",
+        "answer": "Typically 7 to 10 working days, provided all KYC documents and proof of registered office are submitted promptly."
+      }
+    ]
+  },
+  {
+    "slug": "statutory-registrations",
+    "title": "Business Registrations & Licenses",
+    "shortDescription": "Essential statutory licenses: MSME/Udyam, Digital Signatures (DSC), Import Export Code (IEC), FSSAI, EPF/ESIC, and Professional Tax.",
+    "icon": "ShieldCheck",
+    "tagline": "Get Fully Licensed and Compliant to Trade, Hire, and Export Across India",
+    "overview": "Operating a legitimate commercial enterprise requires key government registrations and certificates. ANS provides swift processing for MSME/Udyam registrations, Class 3 Digital Signatures, Import Export Codes (IEC), FSSAI Food Licenses, Professional Tax (PT), and Provident Fund / ESIC registrations.",
+    "whyItMatters": "Holding proper registrations unlocks priority bank lending, collateral-free MSME loans, government tender eligibility, seamless customs clearance, and shields your business from heavy municipal and labor law penalties.",
+    "priceStarting": "₹ 799",
+    "packages": [
+      {
+        "name": "MSME / Udyam Certificate",
+        "price": "₹ 799",
+        "features": ["Instant Government Registration", "MSME Benefits Eligibility", "Priority Sector Lending Access", "Subsidized Patent/Trademark Fees", "1-Day Turnaround"]
+      },
+      {
+        "name": "Digital Signature (DSC Class 3)",
+        "price": "₹ 1,499",
+        "features": ["2 Years Validity Class 3 DSC", "Signing + Encryption Certificate", "FIPS Certified USB Crypto Token", "MCA / ITR / GST / E-Tender Support", "Doorstep Video Verification"]
+      },
+      {
+        "name": "Import Export Code (IEC)",
+        "price": "₹ 2,499",
+        "features": ["DGFT Portal Registration", "Lifetime Valid 10-Digit IEC", "Bank Account Profile Linking", "Customs ICEGATE Integration", "Delivery in 2 Business Days"]
+      }
+    ],
+    "offerings": [
+      {
+        "title": "MSME / Udyam Registration",
+        "description": "Government of India MSME certificate for micro, small, and medium businesses to claim government subsidies.",
+        "icon": "Award"
+      },
+      {
+        "title": "Digital Signature Certificate (DSC Class 3)",
+        "description": "Secure USB token Class 3 DSC for signing income tax returns, MCA e-forms, and government e-tenders.",
+        "icon": "Key"
+      },
+      {
+        "title": "Import Export Code (IEC Allotment)",
+        "description": "Directorate General of Foreign Trade (DGFT) license mandatory for importing or exporting goods & services.",
+        "icon": "Ship"
+      },
+      {
+        "title": "FSSAI Food Business License",
+        "description": "Basic, State, and Central FSSAI food safety licenses for restaurants, cloud kitchens, manufacturers, and traders.",
+        "icon": "Utensils"
+      },
+      {
+        "title": "EPFO & ESIC Employer Registration",
+        "description": "Employees' Provident Fund and State Insurance registration, monthly return filing, and electronic challans (ECR).",
+        "icon": "Users2"
+      },
+      {
+        "title": "Professional Tax (PT) Registration",
+        "description": "State-level Professional Tax Enrolment Certificate (PTEC) and Registration Certificate (PTRC) for employers.",
+        "icon": "FileCheck2"
+      }
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card and PAN Card of the Proprietor / Director",
+      "Business Bank Account Details / Cancelled Cheque",
+      "Proof of Business Location (Electricity Bill / Rent Agreement)",
+      "Partnership Deed / Certificate of Incorporation (if applicable)"
+    ],
+    "deliverables": [
+      "Government-issued Statutory Registration Certificates",
+      "Class 3 USB Crypto Token shipped to your address",
+      "Direct portal login credentials and user manuals",
+      "Annual renewal alert tracking in client portal"
+    ],
+    "faqs": [
+      {
+        "question": "What is the validity of an MSME/Udyam certificate?",
+        "answer": "Udyam registration has lifetime validity. You only need to update your annual turnover and investment values periodically."
+      },
+      {
+        "question": "Is Import Export Code (IEC) required for software/service exports?",
+        "answer": "Yes, having an IEC is mandatory even for service exporters (IT companies, consultants) to claim export benefits like zero-rated GST and LUT."
+      }
+    ]
+  },
+  {
+    "slug": "roc-compliance",
+    "title": "ROC & MCA Corporate Compliance",
+    "shortDescription": "Annual MCA filings (AOC-4, MGT-7), Director KYC (DIR-3 KYC), board minutes, increase in capital, and statutory registers.",
+    "icon": "Layers",
+    "tagline": "Keep Your Private Limited Company & LLP 100% Compliant and Penalty-Free",
+    "overview": "The Ministry of Corporate Affairs enforces stringent reporting mandates with daily cumulative penalties for missed deadlines. ANS handles end-to-end secretarial compliance: Annual Financial Filings (Form AOC-4), Annual Returns (Form MGT-7 / MGT-7A), Director KYC (DIR-3 KYC), Commencement of Business (INC-20A), and auditor appointments (ADT-1).",
+    "whyItMatters": "Delay in MCA annual filings incurs penalties of ₹100 per day per form with no upper cap, disqualification of directors under Section 164(2), and potential striking off of your company from the register.",
+    "priceStarting": "₹ 999",
+    "packages": [
+      {
+        "name": "Director Annual KYC (DIR-3 KYC)",
+        "price": "₹ 999 / director",
+        "features": ["Web-based OTP KYC or Form DIR-3 KYC", "DIN Status Reactivation", "Digital Signature Verification", "Filing Acknowledgment SRN Receipt", "Same-Day Filing"]
+      },
+      {
+        "name": "Commencement of Business (INC-20A)",
+        "price": "₹ 1,999",
+        "features": ["Bank Statement Paid-up Capital Verification", "Registered Office Geo-tagged Photo", "Form INC-20A Preparation & Filing", "Mandatory for all new companies within 180 days"]
+      },
+      {
+        "name": "Annual Company Compliance Retainer",
+        "price": "₹ 9,999 / year",
+        "features": ["Form AOC-4 (Financials Filing)", "Form MGT-7 / 7A (Annual Return)", "DIR-3 KYC for 2 Directors", "Preparation of Board & AGM Minutes", "Statutory Registers Maintenance"]
+      }
+    ],
+    "offerings": [
+      {
+        "title": "Director KYC (DIR-3 KYC / Web)",
+        "description": "Mandatory annual identity verification for all DIN holders before September 30 to prevent DIN deactivation.",
+        "icon": "UserCheck2"
+      },
+      {
+        "title": "Annual MCA Filings (AOC-4 & MGT-7)",
+        "description": "Filing of audited balance sheets, P&L statements, director reports, and annual returns with the Registrar of Companies.",
+        "icon": "FileSpreadsheet"
+      },
+      {
+        "title": "Auditor Appointment (Form ADT-1)",
+        "description": "Statutory filing within 15 days of AGM to officially appoint or reappoint company statutory auditors.",
+        "icon": "UserPlus2"
+      },
+      {
+        "title": "Change in Directors / Designated Partners",
+        "description": "Appointment, resignation, or removal of directors via Form DIR-12 with consent and resignation letters.",
+        "icon": "UserMinus"
+      },
+      {
+        "title": "Increase in Authorized Share Capital",
+        "description": "Drafting EGM notices, shareholder resolutions, and filing Form SH-7 with stamp duty payment.",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Change in Registered Office (Local & Inter-State)",
+        "description": "Filing Form INC-22 or Regional Director petitions for shifting business address across cities or states.",
+        "icon": "MapPin"
+      }
+    ],
+    "requiredDocuments": [
+      "Audited Financial Statements (Balance Sheet & P&L with Audit Report)",
+      "Director's Report and Notice of Annual General Meeting (AGM)",
+      "Director PAN, Aadhaar, Email, and Mobile OTP for KYC",
+      "Digital Signature Certificates (DSC) of Directors"
+    ],
+    "deliverables": [
+      "MCA Service Request Number (SRN) Challans",
+      "Approved ROC Filing Acknowledgment Receipts",
+      "Updated Master Data on MCA21 Portal",
+      "Drafted Board Resolutions and AGM Minutes Binder"
+    ],
+    "faqs": [
+      {
+        "question": "What is the penalty for filing AOC-4 and MGT-7 late?",
+        "answer": "Under the Companies Act, the late fee is ₹100 per day per form starting from the due date, with no maximum ceiling."
+      },
+      {
+        "question": "What is DIR-3 KYC and who must file it?",
+        "answer": "Every individual who holds a Director Identification Number (DIN) as of March 31 must file DIR-3 KYC annually before September 30, even if they are not currently a director in any active company."
+      }
+    ]
+  },
+  {
+    "slug": "accounting-bookkeeping",
+    "title": "Accounting, Bookkeeping & Payroll",
+    "shortDescription": "End-to-end cloud bookkeeping (Tally, Zoho, QuickBooks), P&L, balance sheets, payroll processing, and statutory audit readiness.",
+    "icon": "Calculator",
+    "tagline": "Pristine, Real-Time Books of Accounts and Automated Monthly Payroll",
+    "overview": "Our Accounting & Bookkeeping practice provides comprehensive financial ledger management, bank reconciliations, vendor payables, customer receivables, and monthly management reporting (MIS). We ensure that your accounts are audit-ready, tax-compliant, and fully synchronized with your GST and TDS returns.",
+    "whyItMatters": "Maintaining accurate accounts is not just mandatory under the Companies Act and Income Tax Act—it provides management with the financial clarity required to protect cash flow, control expenses, and secure debt or equity funding.",
+    "priceStarting": "₹ 2,999 / mo",
+    "packages": [
+      {
+        "name": "Starter Bookkeeping",
+        "price": "₹ 2,999 / mo",
+        "features": ["Up to 100 Transactions / Month", "Bank & Cash Account Reconciliation", "Quarterly P&L & Balance Sheet", "Tally / Zoho Books Cloud Setup", "Dedicated Accountant Support"]
+      },
+      {
+        "name": "Growth Business Plan",
+        "price": "₹ 5,999 / mo",
+        "features": ["Up to 300 Transactions / Month", "Monthly Ledger & Vendor Balancing", "Monthly P&L, Balance Sheet, & Cash Flow", "GST & TDS Return Data Preparation", "Monthly Financial Health Review"]
+      },
+      {
+        "name": "Full Outsourced Finance Team",
+        "price": "₹ 11,999 / mo",
+        "features": ["Unlimited Transactions", "Daily Invoicing & Accounts Payable Tracking", "Complete Payroll Processing (up to 25 staff)", "Weekly Cash MIS & Variance Analysis", "Auditor Coordination & Tax Readiness"]
+      }
+    ],
+    "offerings": [
+      {
+        "title": "Cloud Bookkeeping & Daily Transaction Recording",
+        "description": "Daily recording of sales, purchases, bank payments, receipts, and journal entries on modern cloud accounting platforms.",
+        "icon": "BookOpen"
+      },
+      {
+        "title": "Statutory Financial Statements Preparation",
+        "description": "Comprehensive Balance Sheets, Profit & Loss accounts, and Notes to Accounts prepared as per Schedule III of Companies Act.",
+        "icon": "FileSpreadsheet"
+      },
+      {
+        "title": "Payroll Computation & Statutory Filings",
+        "description": "Salary sheet preparation, CTC breakdown, employee payslips, TDS on salary (Form 24Q), and PF/ESIC monthly challans.",
+        "icon": "Users"
+      },
+      {
+        "title": "TDS Returns & Form 16 / 16A Generation",
+        "description": "Quarterly TDS filings (Form 24Q, 26Q, 27Q), TRACES reconciliation, and automated Form 16/16A certificate generation.",
+        "icon": "FileText"
+      },
+      {
+        "title": "Accounts Payable & Receivable Management",
+        "description": "Vendor bill verification, aging analysis, customer follow-up tracking, and working capital optimization.",
+        "icon": "CreditCard"
+      },
+      {
+        "title": "Management Information Systems (MIS)",
+        "description": "Customized executive dashboards tracking gross margin, operating EBITDA, burn rate, and budget vs actual variances.",
+        "icon": "PieChart"
+      }
+    ],
+    "requiredDocuments": [
+      "Bank Account Statements (PDF and Excel/CSV formats)",
+      "Sales Invoices and Purchase Invoices / Bills",
+      "Expense Receipts, Petty Cash Vouchers, and Credit Card Statements",
+      "Salary Sheets and Attendance Logs"
+    ],
+    "deliverables": [
+      "Monthly Balance Sheet, Profit & Loss, and Cash Flow Statements",
+      "Detailed Bank & Vendor Reconciliation Reports",
+      "Quarterly TDS Returns and digitally signed Form 16 / 16A",
+      "Year-End Audit Working Papers and Ledger Schedules"
+    ],
+    "faqs": [
+      {
+        "question": "Which accounting software do you support?",
+        "answer": "We work with all leading accounting platforms including Tally Prime, Zoho Books, QuickBooks Online, SAP, Xero, and Busy."
+      },
+      {
+        "question": "Can you prepare accounts for pending backdated years?",
+        "answer": "Yes, our team specializes in backlog accounting cleanup and financial reconstruction for businesses needing to bring historical books up to date for audits or tax filings."
+      }
+    ]
+  }
+]
